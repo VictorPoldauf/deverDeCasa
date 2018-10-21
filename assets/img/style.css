@@ -1,0 +1,129 @@
+body{
+    font-family: 'Kodchasan', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #808080  ;  
+}
+a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+.menu{
+    background-color: 	#000;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 10px;
+   
+}
+ .menu li,.menu ol {
+    display: inline;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    justify-content: flex-end;
+}
+.logo{
+    padding: 15px;
+}
+#resumo{
+    display: flex;
+    justify-content: end;
+    margin-block-start: 0.67em;
+}
+footer{
+    background-color: #000;
+}
+footer h3{
+    color: goldenrod;
+    text-align: start;
+}
+.conts{
+    display: flex;
+    justify-content: flex-end;
+}
+.itens{
+    display: flex;
+    justify-content: space-between;
+}
+.itensAcademica li{
+    list-style: none;
+    }
+.itensAcademica h4,h5{
+    margin: 0px;
+    padding: 0px;
+}
+.eslogo{
+    height: 100px;
+}
+#formacaoAcademica h1{
+   text-align: center;
+}
+.allxp{
+display: flex;
+justify-content: space-between;
+}
+.xp li{
+    list-style: none;
+    }
+#experieciaProfissional h1{
+    text-align: center;
+}
+#extracurricular h1,h3{
+    text-align: center;
+}
+.curs{
+    display: flex;
+    justify-content: space-between;
+}
+#proj h1{
+    text-align: center;
+}
+.imgresumo{
+    width: 250px;
+    border-radius: 25px;   
+}
+.texResumo{
+    margin-left: 15px;
+}
+.robotica{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ej{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imgej{
+    width: 280px;
+    margin-right: 15px;
+    border-radius: 25px;
+}
+.imgrobotica{
+    width: 280px;
+    margin-right: 15px;
+    border-radius: 25px;
+}
+body h1{
+    color:goldenrod;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    background-color: #000;    
+}
+#resumo h2{
+    color:goldenrod;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.yellow{
+    background-color:goldenrod; 
+    height:8px;
+}
+.mot{
+    display: flex;
+    font-style: italic;
+    padding-right: 15px;
+    flex-direction: row-reverse;     
+}
